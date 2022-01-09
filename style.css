@@ -38,3 +38,33 @@ th{
     color: rgb(104, 7, 7);
     font-size: 50px;
 }
+.animate{
+    border: 1px solid red;
+
+}
+.animation{
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+@keyframes slidein{
+    from{
+        margin-left: 300%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+.transform{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    transform: skew(45deg);
+    transition: 5s;
+}
+.fab{
+    font-size: 100px;
+    color:blue;
+
+}
