@@ -27,3 +27,14 @@ th{
     background-color: rgb(7, 26, 107);
     color: white;
 }
+.semantic{
+    font-size: 25px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seman{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(104, 7, 7);
+    font-size: 50px;
+}
